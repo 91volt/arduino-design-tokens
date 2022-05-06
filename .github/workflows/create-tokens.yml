@@ -11,8 +11,8 @@ jobs:
         uses: actions/setup-node@v2.4.0
       # Install dependencies
       - run: npm install
-      - run: npx token-transformer tokens.json theia/dark.json core,ide-dark,theia core,ide-dark
       # Create a light theme, exclude the global tokens
+      - run: npx token-transformer tokens.json theia/dark.json core,ide-dark,theia core,ide-dark
       - run: npx token-transformer tokens.json theia/default.json core,ide-default,theia core,ide-default
       # Create a dark theme, exclude the global tokens
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
