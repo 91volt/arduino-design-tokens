@@ -2,7 +2,7 @@
   "colors": {
     "list": {
       "highlightForeground": {
-        "value": "#000000",
+        "value": "#006d70",
         "type": "color"
       },
       "activeSelectionForeground": {

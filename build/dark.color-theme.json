@@ -1,7 +1,7 @@
 {
   "name": "Arduino undefined",
   "colors": {
-    "colors.list.highlightForeground": "#000000",
+    "colors.list.highlightForeground": "#171e21",
     "colors.list.activeSelectionForeground": "#424242",
     "colors.list.activeSelectionBackground": "#DAE3E3",
     "colors.list.inactiveSelectionForeground": "#424242",
