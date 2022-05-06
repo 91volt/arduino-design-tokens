@@ -1,0 +1,194 @@
+{
+  "colors": {
+    "list": {
+      "highlightForeground": {
+        "value": "#005c5f",
+        "type": "color"
+      },
+      "activeSelectionForeground": {
+        "value": "#424242",
+        "type": "color"
+      },
+      "activeSelectionBackground": {
+        "value": "#DAE3E3",
+        "type": "color"
+      },
+      "inactiveSelectionForeground": {
+        "value": "#424242",
+        "type": "color"
+      },
+      "inactiveSelectionBackground": {
+        "value": "#DAE3E3",
+        "type": "color"
+      },
+      "hoverBackground": {
+        "value": "#ECF1F1",
+        "type": "color"
+      }
+    },
+    "progressBar": {
+      "background": {
+        "value": "#005c5f",
+        "type": "color"
+      }
+    },
+    "editor": {
+      "background": {
+        "value": "#1f272a",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "#434f54",
+        "type": "color"
+      },
+      "lineHighlightBackground": {
+        "value": "#434f5410",
+        "type": "color"
+      },
+      "selectionBackground": {
+        "value": "#ffcb00",
+        "type": "color"
+      }
+    },
+    "editorCursor": {
+      "foreground": {
+        "value": "#434f54",
+        "type": "color"
+      }
+    },
+    "editorWhitespace": {
+      "foreground": {
+        "value": "#bfbfbf",
+        "type": "color"
+      }
+    },
+    "editorWidget": {
+      "background": {
+        "value": "#F7F9F9",
+        "type": "color"
+      }
+    },
+    "focusBorder": {
+      "value": "#7fcbcd99",
+      "type": "color"
+    },
+    "menubar": {
+      "selectionBackground": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "selectionForeground": {
+        "value": "#212121",
+        "type": "color"
+      }
+    },
+    "menu": {
+      "selectionBackground": {
+        "value": "#dae3e3",
+        "type": "color"
+      },
+      "selectionForeground": {
+        "value": "#212121",
+        "type": "color"
+      }
+    },
+    "editorGroupHeader": {
+      "tabsBackground": {
+        "value": "#171e21",
+        "type": "color"
+      }
+    },
+    "button": {
+      "background": {
+        "value": "#0ca1a6",
+        "type": "color"
+      }
+    },
+    "titleBar": {
+      "activeBackground": {
+        "value": "#171e21",
+        "type": "color"
+      },
+      "activeForeground": {
+        "value": "#dae3e3",
+        "type": "color"
+      }
+    },
+    "terminal": {
+      "background": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "#e0e0e0",
+        "type": "color"
+      }
+    },
+    "dropdown": {
+      "border": {
+        "value": "#ececec",
+        "type": "color"
+      },
+      "background": {
+        "value": "#ececec",
+        "type": "color"
+      }
+    },
+    "activityBar": {
+      "background": {
+        "value": "#171e21",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "#4e5b61",
+        "type": "color"
+      }
+    },
+    "statusBar": {
+      "background": {
+        "value": "#171e21",
+        "type": "color"
+      }
+    },
+    "secondaryButton": {
+      "background": {
+        "value": "#b5c8c9",
+        "type": "color"
+      },
+      "foreground": {
+        "value": "#ececec",
+        "type": "color"
+      },
+      "hoverBackground": {
+        "value": "#dae3e3",
+        "type": "color"
+      }
+    },
+    "arduino": {
+      "branding": {
+        "primary": {
+          "value": "#00979d",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#b5c8c9",
+          "type": "color"
+        }
+      },
+      "foreground": {
+        "value": "#edf1f1",
+        "type": "color"
+      },
+      "output": {
+        "foreground": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "background": {
+          "value": "#000000",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
