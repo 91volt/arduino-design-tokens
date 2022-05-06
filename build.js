@@ -89,7 +89,7 @@ StyleDictionaryPackage.registerFormat({
 function getStyleDictionaryConfig(theme) {
   return {
     "source": [
-      `arduino-theia/${theme}.json`,
+      `tokens/${theme}.json`,
     ],
     "platforms": {
         "vscode": {
