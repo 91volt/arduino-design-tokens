@@ -95,7 +95,7 @@ function getStyleDictionaryConfig(theme) {
         "vscode": {
             // Directory to build files to
             "buildPath": `theia-themes/`,
-            themeType: theme,
+            "themeType": `${theme}`,
             // The name of the custom transform we defined above
             "transforms": ["attribute/cti", "name/cti/kebab","vsCodeName"],
             "files": [{
