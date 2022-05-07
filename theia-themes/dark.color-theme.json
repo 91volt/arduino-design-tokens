@@ -12,7 +12,7 @@
     "colors.editor.background": "#1f272a",
     "colors.editor.foreground": "#434f54",
     "colors.editor.lineHighlightBackground": "#434f5410",
-    "colors.editor.selectionBackground": "#ffcb00",
+    "colors.editor.selectionBackground": "$ide-contextual.toolbar.button.toolbar-button-bg-busy",
     "colors.editorCursor.foreground": "#434f54",
     "colors.editorWhitespace.foreground": "#bfbfbf",
     "colors.editorWidget.background": "#F7F9F9",
