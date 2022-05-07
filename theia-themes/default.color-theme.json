@@ -10,7 +10,7 @@
     "colors.list.hoverBackground": "#ECF1F1",
     "colors.progressBar.background": "#005c5f",
     "colors.editor.background": "#ffffff",
-    "colors.editor.foreground": "#434f54",
+    "colors.editor.foreground": "#4e5b61",
     "colors.editor.lineHighlightBackground": "#434f5410",
     "colors.editor.selectionBackground": "#f1c40f",
     "colors.editorCursor.foreground": "#434f54",
