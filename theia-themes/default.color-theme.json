@@ -16,7 +16,7 @@
     "colors.editorCursor.foreground": "#434f54",
     "colors.editorWhitespace.foreground": "#bfbfbf",
     "colors.editorWidget.background": "#F7F9F9",
-    "colors.focusBorder": "#7fcbcd99",
+    "colors.focusBorder": "#7fcbcd",
     "colors.menubar.selectionBackground": "#ffffff",
     "colors.menubar.selectionForeground": "#212121",
     "colors.menu.selectionBackground": "#dae3e3",
