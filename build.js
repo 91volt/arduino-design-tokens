@@ -10,7 +10,7 @@ const StyleDictionaryPackage = require('style-dictionary');
         // like `comment` and `comment.line`
         if (token.name === '*') {
           // removes the first and last parts of the path
-          return token.path.slice(2,-1).join('.')
+          return token.path.slice(1,-1).join('.')
         } else {
           // removes the first part of the path which would be 'syntax'
           return token.path.slice(1).join('.');
