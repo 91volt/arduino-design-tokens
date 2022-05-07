@@ -48,6 +48,10 @@
       "selectionBackground": {
         "value": "#f1c40f",
         "type": "color"
+      },
+      "test": {
+        "value": "#000",
+        "type": "color"
       }
     },
     "editorCursor": {

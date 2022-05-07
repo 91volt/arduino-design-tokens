@@ -13,6 +13,7 @@
     "editor.foreground": "#dae3e3",
     "editor.lineHighlightBackground": "#434f5410",
     "editor.selectionBackground": "#f1c40f",
+    "editor.test": "#000",
     "editorCursor.foreground": "#434f54",
     "editorWhitespace.foreground": "#bfbfbf",
     "editorWidget.background": "#F7F9F9",
