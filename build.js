@@ -5,7 +5,7 @@ const StyleDictionaryPackage = require('style-dictionary');
     type: 'name',
     transformer: (token) => {
       // syntax tokens we remove the first part of the object path
-      if (token.path[0] === 'syntax') {
+      if (token.path[0] === 'colors') {
         // This allows you to have tokens at multiple levels
         // like `comment` and `comment.line`
         if (token.name === '*') {
@@ -13,7 +13,7 @@ const StyleDictionaryPackage = require('style-dictionary');
           return token.path.slice(1,-1).join('.')
         } else {
           // removes the first part of the path which would be 'syntax'
-          return token.path.slice(2).join('.');
+          return token.path.slice(1).join('.');
         }
       } else {
         // Used for application colors
