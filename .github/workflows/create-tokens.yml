@@ -12,7 +12,7 @@ jobs:
       # Install dependencies
       - run: npm install
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json tokens/dark.json core,ide-dark,theia core,ide-dark
+      - run: npx token-transformer tokens.json tokens/dark.json core,ide-default,ide-dark,theia core,ide-default,ide-dark
       - run: npx token-transformer tokens.json tokens/default.json core,ide-default,theia core,ide-default
       # Create a dark theme, exclude the global tokens
       - run: node build.js
