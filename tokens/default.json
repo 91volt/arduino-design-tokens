@@ -181,7 +181,7 @@
       },
       "output": {
         "foreground": {
-          "value": "#FFFFFF",
+          "value": "#ffffff",
           "type": "color"
         },
         "background": {
