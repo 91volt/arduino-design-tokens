@@ -14,6 +14,7 @@ const StyleDictionaryPackage = require('style-dictionary');
         } else {
           // removes the first part of the path which would be 'syntax'
           return token.path.slice(1).join('.')
+          return token.path.slice(1).join('.')
         }
       } else {
         // Used for application colors
