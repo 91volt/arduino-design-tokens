@@ -5,7 +5,7 @@ const StyleDictionaryPackage = require('style-dictionary');
     type: 'name',
     transformer: (token) => {
       // syntax tokens we remove the first part of the object path
-      if (token.path[0] === 'syntax') {
+      if (token.path[1] === 'syntax') {
         // This allows you to have tokens at multiple levels
         // like `comment` and `comment.line`
         if (token.name === '*') {
