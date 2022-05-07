@@ -14,9 +14,12 @@ jobs:
       # Create a light theme, exclude the global tokens
       - run: npx token-transformer tokens.json tokens/dark.json core,ide-default,ide-dark,theia core,ide-default,ide-dark
       - run: npx token-transformer tokens.json tokens/default.json core,ide-default,theia core,ide-default
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update Tokens
       # Create a dark theme, exclude the global tokens
       - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update Tokens
+          commit_message: Update theia theme
