@@ -46,9 +46,8 @@
         "type": "color"
       },
       "selectionBackground": {
-        "value": "$ide-contextual.toolbar.button.toolbar-button-bg-busy",
-        "type": "color",
-        "failedToResolve": true
+        "value": "#f1c40f",
+        "type": "color"
       }
     },
     "editorCursor": {
