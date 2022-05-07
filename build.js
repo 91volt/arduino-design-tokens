@@ -97,7 +97,7 @@ function getStyleDictionaryConfig(theme) {
             "buildPath": `theia-themes/`,
             "themeType": `${theme}`,
             // The name of the custom transform we defined above
-            "transforms": ["attribute/cti", "name/cti/kebab","vsCodeName"],
+            "transforms": ["vsCodeName"],
             "files": [{
               // The path the file will be created at. Make sure this matches
               // the file paths defined in the package.json
