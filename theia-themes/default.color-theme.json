@@ -30,7 +30,9 @@
     "dropdown.border": "#ececec",
     "dropdown.background": "#ececec",
     "activityBar.background": "#ecf1f1",
-    "activityBar.foreground": "#bdc7c7",
+    "activityBar.foreground": "#4e5b61",
+    "activityBar.inactiveForeground": "#bdc7c7",
+    "activityBar.activeBorder": "#008184",
     "statusBar.background": "#006d70",
     "secondaryButton.background": "#b5c8c9",
     "secondaryButton.foreground": "#ececec",
@@ -42,7 +44,9 @@
     "arduino.output.background": "#000000",
     "sideBar.background": "#f7f9f9",
     "input.background": "#ffffff",
-    "foreground": "#4e5b61"
+    "foreground": "#4e5b61",
+    "settings.headerForeground": "#4e5b61",
+    "tree.indentGuidesStroke": "#dae3e3"
   },
   "tokenColors": []
 }
