@@ -6,19 +6,9 @@ const StyleDictionaryPackage = require('style-dictionary');
     transformer: (token) => {
       // syntax tokens we remove the first part of the object path
       if (token.path[0] === 'colors') {
-        // This allows you to have tokens at multiple levels
-        // like `comment` and `comment.line`
-        if (token.name === '*') {
-          // removes the first and last parts of the path
-          return token.path.slice(1,-1).join('.')
-        } else {
-          // removes the first part of the path which would be 'syntax'
-          return token.path.slice(1).join('.');
-        }
-      } else {
-        // Used for application colors
-        return token.path.join('.');
+        return token.path.slice(1).join('.');
       }
+
     }
   });
 
@@ -70,7 +60,7 @@ StyleDictionaryPackage.registerFormat({
       
       // Map the syntax styles
       theme.tokenColors = dictionary.allProperties.filter((token) => {
-        return token.path[0] === 'syntax'
+        return token.path[0] === 'tokenColors'
       }).map((token) => ({
         scope: token.name,
         settings: {
