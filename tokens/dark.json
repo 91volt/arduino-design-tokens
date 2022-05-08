@@ -201,6 +201,10 @@
         "value": "#000000",
         "type": "color"
       }
+    },
+    "foreground": {
+      "value": "#dae3e3",
+      "type": "color"
     }
   }
 }
