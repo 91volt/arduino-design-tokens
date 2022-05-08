@@ -41,7 +41,8 @@
     "arduino.output.foreground": "#ffffff",
     "arduino.output.background": "#000000",
     "sideBar.background": "#101618",
-    "input.background": "#000000"
+    "input.background": "#000000",
+    "foreground": "#dae3e3"
   },
   "tokenColors": []
 }
