@@ -70,7 +70,11 @@
     },
     "focusBorder": {
       "value": "#dae3e3",
-      "type": "color"
+      "type": "color",
+      "ciao": {
+        "value": "#000",
+        "type": "color"
+      }
     },
     "menubar": {
       "selectionBackground": {
