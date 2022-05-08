@@ -189,6 +189,18 @@
           "type": "color"
         }
       }
+    },
+    "sideBar": {
+      "background": {
+        "value": "#101618",
+        "type": "color"
+      }
+    },
+    "input": {
+      "background": {
+        "value": "#000000",
+        "type": "color"
+      }
     }
   }
 }
