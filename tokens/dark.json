@@ -140,7 +140,15 @@
         "type": "color"
       },
       "foreground": {
+        "value": "#dae3e3",
+        "type": "color"
+      },
+      "inactiveForeground": {
         "value": "#4e5b61",
+        "type": "color"
+      },
+      "activeBorder": {
+        "value": "#0ca1a6",
         "type": "color"
       }
     },
@@ -205,6 +213,18 @@
     "foreground": {
       "value": "#dae3e3",
       "type": "color"
+    },
+    "settings": {
+      "headerForeground": {
+        "value": "#dae3e3",
+        "type": "color"
+      }
+    },
+    "tree": {
+      "indentGuidesStroke": {
+        "value": "#374146",
+        "type": "color"
+      }
     }
   }
 }
