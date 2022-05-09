@@ -9,14 +9,7 @@ const StyleDictionaryPackage = require('style-dictionary');
         return token.path.slice(1).join('.');
       }
 
-      else if (token.path[0] === 'tokenColors') {
-        return
-      }
-
-    
     }
-
-
   });
 
 // StyleDictionaryPackage.registerTransform({
@@ -68,19 +61,14 @@ StyleDictionaryPackage.registerFormat({
       // Map the syntax styles
       theme.tokenColors = dictionary.allProperties.filter((token) => {
         return token.path[0] === 'tokenColors'
-      });
-    //   theme.tokenColors = dictionary.allProperties.filter((token) => {
-    //     return token.path[0] === 'tokenColors'
-    //   }).map((token) => ({
-    //     scope: token.name,
-    //     settings: {
-    //       foreground: token.value,
-    //       fontStyle: token.fontStyle,
-    //     }
-    //   })
-    //   );
-
-
+      }).map((token) => ({
+        scope: token.name,
+        settings: {
+          foreground: token.value,
+          fontStyle: token.fontStyle,
+        }
+      }));
+      
       // Style Dictionary formats expect a string that will be then written to a file
       return JSON.stringify(theme, null, 2);
     }
