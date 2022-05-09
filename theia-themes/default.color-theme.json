@@ -29,7 +29,7 @@
     "terminal.foreground": "#e0e0e0",
     "dropdown.border": "#ececec",
     "dropdown.background": "#ececec",
-    "activityBar.background": "#ecf1f1",
+    "activityBar.background": "#f1c40f",
     "activityBar.foreground": "#4e5b61",
     "activityBar.inactiveForeground": "#bdc7c7",
     "activityBar.activeBorder": "#008184",
