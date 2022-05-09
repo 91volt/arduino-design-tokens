@@ -140,7 +140,7 @@
     },
     "activityBar": {
       "background": {
-        "value": "#ecf1f1",
+        "value": "#f1c40f",
         "type": "color"
       },
       "foreground": {
