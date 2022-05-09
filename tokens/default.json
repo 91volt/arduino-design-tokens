@@ -2,7 +2,7 @@
   "colors": {
     "list": {
       "highlightForeground": {
-        "value": "#005c5f",
+        "value": "#006d70",
         "type": "color"
       },
       "activeSelectionForeground": {
@@ -38,7 +38,7 @@
         "type": "color"
       },
       "foreground": {
-        "value": "#434f54",
+        "value": "#4e5b61",
         "type": "color"
       },
       "lineHighlightBackground": {
@@ -46,7 +46,7 @@
         "type": "color"
       },
       "selectionBackground": {
-        "value": "#ffcb00",
+        "value": "#f1c40f",
         "type": "color"
       }
     },
@@ -69,8 +69,12 @@
       }
     },
     "focusBorder": {
-      "value": "#7fcbcd99",
-      "type": "color"
+      "value": "#7fcbcd",
+      "type": "color",
+      "ciao": {
+        "value": "#000",
+        "type": "color"
+      }
     },
     "menubar": {
       "selectionBackground": {
@@ -140,7 +144,15 @@
         "type": "color"
       },
       "foreground": {
+        "value": "#4e5b61",
+        "type": "color"
+      },
+      "inactiveForeground": {
         "value": "#bdc7c7",
+        "type": "color"
+      },
+      "activeBorder": {
+        "value": "#008184",
         "type": "color"
       }
     },
@@ -167,7 +179,7 @@
     "arduino": {
       "branding": {
         "primary": {
-          "value": "#00979d",
+          "value": "#008184",
           "type": "color"
         },
         "secondary": {
@@ -181,13 +193,47 @@
       },
       "output": {
         "foreground": {
-          "value": "#FFFFFF",
+          "value": "#ffffff",
           "type": "color"
         },
         "background": {
           "value": "#000000",
           "type": "color"
         }
+      }
+    },
+    "sideBar": {
+      "background": {
+        "value": "#f7f9f9",
+        "type": "color"
+      }
+    },
+    "input": {
+      "background": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "foreground": {
+      "value": "#4e5b61",
+      "type": "color"
+    },
+    "settings": {
+      "headerForeground": {
+        "value": "#4e5b61",
+        "type": "color"
+      }
+    },
+    "tree": {
+      "indentGuidesStroke": {
+        "value": "#dae3e3",
+        "type": "color"
+      }
+    },
+    "tab": {
+      "unfocusedActiveForeground": {
+        "value": "#4e5b61",
+        "type": "color"
       }
     }
   }
