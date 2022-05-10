@@ -72,7 +72,8 @@ StyleDictionaryPackage.registerFormat({
       theme.tokenColors = dictionary.allProperties.filter((token) => {
         return token.path[0] === 'syntax'
       }).map((token) => ({
-        scope: token.name,
+        name: token.name,
+        scope: token.scope,
         settings: {
           foreground: token.value,
           fontStyle: token.fontStyle,
