@@ -93,8 +93,6 @@
         "meta.function-call.c",
         "meta.block.c",
         "meta.function.c",
-        "entity.name.function.preprocessor.c",
-        "meta.preprocessor.macro.c",
         "variable",
         "variable.name"
       ],
@@ -103,9 +101,20 @@
       }
     },
     {
+      "name": "function preprocessor",
+      "scope": [
+        "entity.name.function.preprocessor.c",
+        "meta.preprocessor.macro.c"
+      ],
+      "settings": {
+        "foreground": "#9e846d"
+      }
+    },
+    {
       "name": "constants",
       "scope": [
         "string.quoted.double",
+        "string.quoted.other.lt-gt",
         "constant"
       ],
       "settings": {
