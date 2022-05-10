@@ -273,17 +273,24 @@
         "meta.function-call.c",
         "meta.block.c",
         "meta.function.c",
-        "entity.name.function.preprocessor.c",
-        "meta.preprocessor.macro.c",
         "variable",
         "variable.name"
       ],
       "type": "color"
     },
+    "function preprocessor": {
+      "value": "#9e846d",
+      "type": "color",
+      "scope": [
+        "entity.name.function.preprocessor.c",
+        "meta.preprocessor.macro.c"
+      ]
+    },
     "constants": {
       "value": "#005C5F",
       "scope": [
         "string.quoted.double",
+        "string.quoted.other.lt-gt",
         "constant"
       ],
       "type": "color"

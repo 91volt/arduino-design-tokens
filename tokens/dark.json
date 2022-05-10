@@ -239,16 +239,16 @@
   },
   "syntax": {
     "*": {
-      "value": "#434f54",
+      "value": "#dae3e3",
       "type": "color"
     },
     "Comments": {
-      "value": "#95a5a6cc",
+      "value": "#7f8c8d",
       "scope": "comment",
       "type": "color"
     },
     "Keywords Attributes": {
-      "value": "#00979D",
+      "value": "#0ca1a6",
       "scope": [
         "storage",
         "support",
@@ -257,7 +257,7 @@
       "type": "color"
     },
     "literal": {
-      "value": "#D35400",
+      "value": "#F39C12",
       "scope": [
         "meta.function.c",
         "entity.name.function",
@@ -273,23 +273,30 @@
         "meta.function-call.c",
         "meta.block.c",
         "meta.function.c",
-        "entity.name.function.preprocessor.c",
-        "meta.preprocessor.macro.c",
         "variable",
         "variable.name"
       ],
       "type": "color"
     },
+    "function preprocessor": {
+      "value": "#569CD6",
+      "type": "color",
+      "scope": [
+        "entity.name.function.preprocessor.c",
+        "meta.preprocessor.macro.c"
+      ]
+    },
     "constants": {
-      "value": "#005C5F",
+      "value": "#7fcbcd",
       "scope": [
         "string.quoted.double",
+        "string.quoted.other.lt-gt",
         "constant"
       ],
       "type": "color"
     },
     "meta keywords": {
-      "value": "#728E00",
+      "value": "#C586C0",
       "scope": [
         "keyword.control",
         "meta.preprocessor.c"
