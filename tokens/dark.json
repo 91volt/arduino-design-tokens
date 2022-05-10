@@ -240,21 +240,18 @@
   "syntax": {
     "comment": {
       "*": {
-        "value": "{color.font.tertiary.value}",
-        "type": "color",
-        "failedToResolve": true
+        "value": "#dae3e3",
+        "type": "color"
       },
       "line": {
-        "value": "{color.font.tertiary.value}",
+        "value": "#dae3e3",
         "fontStyle": "italic",
-        "type": "color",
-        "failedToResolve": true
+        "type": "color"
       },
       "block": {
         "documentation": {
-          "value": "{color.font.secondary.value}",
-          "type": "color",
-          "failedToResolve": true
+          "value": "#dae3e3",
+          "type": "color"
         }
       },
       "single": {
