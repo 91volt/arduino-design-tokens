@@ -236,5 +236,31 @@
         "type": "color"
       }
     }
+  },
+  "syntax": {
+    "comment": {
+      "*": {
+        "value": "{color.font.tertiary.value}",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "line": {
+        "value": "{color.font.tertiary.value}",
+        "fontStyle": "italic",
+        "type": "color",
+        "failedToResolve": true
+      },
+      "block": {
+        "documentation": {
+          "value": "{color.font.secondary.value}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "single": {
+        "value": "#dae3e3",
+        "type": "color"
+      }
+    }
   }
 }
