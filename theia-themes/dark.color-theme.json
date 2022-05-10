@@ -51,7 +51,7 @@
   },
   "tokenColors": [
     {
-      "scope": "test",
+      "scope": "",
       "settings": {
         "foreground": "#dae3e3"
       }
