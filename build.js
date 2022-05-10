@@ -9,15 +9,18 @@ const StyleDictionaryPackage = require('style-dictionary');
         return token.path.slice(1).join('.');
       }
 
-      else if (token.path[0] === 'tokenColors') {
-        return
-      }
-
-    
+      if (token.path[0] === 'syntax') {
+        // This allows you to have tokens at multiple levels
+        // like `comment` and `comment.line`
+        if (token.name === '*') {
+          // removes the first and last parts of the path
+          return token.path.slice(1,-1).join('.')
+        } else {
+          // removes the first part of the path which would be 'syntax'
+          return token.path.slice(1).join('.')
+        }
     }
-
-
-  });
+  }});
 
 // StyleDictionaryPackage.registerTransform({
 //     name: 'sizes/px',
@@ -67,7 +70,7 @@ StyleDictionaryPackage.registerFormat({
       
       // Map the syntax styles
       theme.tokenColors = dictionary.allProperties.filter((token) => {
-        return token.path[0] === 'tokenColors'
+        return token.path[0] === 'syntax'
       }).map((token) => ({
         scope: token.name,
         settings: {
