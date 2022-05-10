@@ -238,7 +238,7 @@
     }
   },
   "syntax": {
-    "": {
+    "test": {
       "value": "#dae3e3",
       "type": "color"
     },
