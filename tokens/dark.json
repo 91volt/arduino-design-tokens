@@ -206,10 +206,6 @@
       "background": {
         "value": "#101618",
         "type": "color"
-      },
-      "test": {
-        "value": "#000",
-        "type": "color"
       }
     },
     "input": {
@@ -242,6 +238,10 @@
     }
   },
   "syntax": {
+    "": {
+      "value": "#dae3e3",
+      "type": "color"
+    },
     "comment": {
       "*": {
         "value": "#dae3e3",
@@ -249,7 +249,6 @@
       },
       "line": {
         "value": "#dae3e3",
-        "fontStyle": "italic",
         "type": "color"
       },
       "block": {
