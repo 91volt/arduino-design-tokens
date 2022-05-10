@@ -51,31 +51,31 @@
   },
   "tokenColors": [
     {
-      "scope": "",
+      "name": "",
       "settings": {
         "foreground": "#dae3e3"
       }
     },
     {
-      "scope": "comment",
+      "name": "comment",
       "settings": {
         "foreground": "#dae3e3"
       }
     },
     {
-      "scope": "comment.line",
+      "name": "comment.line",
       "settings": {
         "foreground": "#dae3e3"
       }
     },
     {
-      "scope": "comment.block.documentation",
+      "name": "comment.block.documentation",
       "settings": {
         "foreground": "#dae3e3"
       }
     },
     {
-      "scope": "comment.single",
+      "name": "comment.single",
       "settings": {
         "foreground": "#dae3e3"
       }
