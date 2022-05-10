@@ -239,28 +239,71 @@
   },
   "syntax": {
     "*": {
-      "value": "#dae3e3",
+      "value": "#434f54",
       "type": "color"
     },
-    "comment": {
-      "*": {
-        "value": "#dae3e3",
-        "type": "color"
-      },
-      "line": {
-        "value": "#dae3e3",
-        "type": "color"
-      },
-      "block": {
-        "documentation": {
-          "value": "#dae3e3",
-          "type": "color"
-        }
-      },
-      "single": {
-        "value": "#dae3e3",
-        "type": "color"
-      }
+    "Comments": {
+      "value": "#95a5a6cc",
+      "scope": "comment",
+      "type": "color"
+    },
+    "Keywords Attributes": {
+      "value": "#00979D",
+      "scope": [
+        "storage",
+        "support",
+        "string.quoted.single.c"
+      ],
+      "type": "color"
+    },
+    "literal": {
+      "value": "#D35400",
+      "scope": [
+        "meta.function.c",
+        "entity.name.function",
+        "meta.function-call.c",
+        "variable.other"
+      ],
+      "type": "color"
+    },
+    "punctuation": {
+      "value": "#434f54",
+      "scope": [
+        "punctuation.section",
+        "meta.function-call.c",
+        "meta.block.c",
+        "meta.function.c",
+        "entity.name.function.preprocessor.c",
+        "meta.preprocessor.macro.c",
+        "variable",
+        "variable.name"
+      ],
+      "type": "color"
+    },
+    "constants": {
+      "value": "#005C5F",
+      "scope": [
+        "string.quoted.double",
+        "constant"
+      ],
+      "type": "color"
+    },
+    "meta keywords": {
+      "value": "#728E00",
+      "scope": [
+        "keyword.control",
+        "meta.preprocessor.c"
+      ],
+      "type": "color"
+    },
+    "numeric preprocessor": {
+      "scope": [
+        "meta.preprocessor.macro.c",
+        "constant.numeric.preprocessor.c",
+        "meta.preprocessor.c"
+      ],
+      "value": "#434f54",
+      "type": "color"
     }
   }
 }
