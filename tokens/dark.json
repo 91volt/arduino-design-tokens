@@ -206,6 +206,10 @@
       "background": {
         "value": "#101618",
         "type": "color"
+      },
+      "test": {
+        "value": "#000",
+        "type": "color"
       }
     },
     "input": {
