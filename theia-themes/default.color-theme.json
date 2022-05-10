@@ -43,12 +43,42 @@
     "arduino.output.foreground": "#ffffff",
     "arduino.output.background": "#000000",
     "sideBar.background": "#f7f9f9",
-    "sideBar.test": "#000",
     "input.background": "#ffffff",
     "foreground": "#4e5b61",
     "settings.headerForeground": "#4e5b61",
     "tree.indentGuidesStroke": "#dae3e3",
     "tab.unfocusedActiveForeground": "#4e5b61"
   },
-  "tokenColors": []
+  "tokenColors": [
+    {
+      "scope": "test",
+      "settings": {
+        "foreground": "#4e5b61"
+      }
+    },
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#4e5b61"
+      }
+    },
+    {
+      "scope": "comment.line",
+      "settings": {
+        "foreground": "#4e5b61"
+      }
+    },
+    {
+      "scope": "comment.block.documentation",
+      "settings": {
+        "foreground": "#4e5b61"
+      }
+    },
+    {
+      "scope": "comment.single",
+      "settings": {
+        "foreground": "#4e5b61"
+      }
+    }
+  ]
 }
