@@ -43,6 +43,7 @@
     "arduino.output.foreground": "#ffffff",
     "arduino.output.background": "#000000",
     "sideBar.background": "#f7f9f9",
+    "sideBar.test": "#000",
     "input.background": "#ffffff",
     "foreground": "#4e5b61",
     "settings.headerForeground": "#4e5b61",
