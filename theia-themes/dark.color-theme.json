@@ -27,7 +27,7 @@
     "titleBar.activeForeground": "#dae3e3",
     "terminal.background": "#000000",
     "terminal.foreground": "#e0e0e0",
-    "dropdown.border": "#ececec",
+    "dropdown.border": "#dae3e3",
     "dropdown.background": "#ececec",
     "activityBar.background": "#101618",
     "activityBar.foreground": "#dae3e3",
@@ -43,11 +43,14 @@
     "arduino.output.foreground": "#ffffff",
     "arduino.output.background": "#000000",
     "sideBar.background": "#101618",
-    "input.background": "#000000",
+    "panelTitle.activeForeground": "#dae3e3",
+    "panelTitle.activeBorder": "#0ca1a6",
     "foreground": "#dae3e3",
     "settings.headerForeground": "#dae3e3",
     "tree.indentGuidesStroke": "#374146",
-    "tab.unfocusedActiveForeground": "#dae3e3"
+    "tab.ActiveBackground": "#1f272a",
+    "tab.ActiveForeground": "#dae3e3",
+    "tab.ActiveBorderTop": "#1f272a"
   },
   "tokenColors": [
     {
