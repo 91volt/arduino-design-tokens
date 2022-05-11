@@ -130,7 +130,7 @@
     },
     "dropdown": {
       "border": {
-        "value": "#ececec",
+        "value": "#f7f9f9",
         "type": "color"
       },
       "background": {
@@ -208,9 +208,13 @@
         "type": "color"
       }
     },
-    "input": {
-      "background": {
-        "value": "#ffffff",
+    "panelTitle": {
+      "activeForeground": {
+        "value": "#4e5b61",
+        "type": "color"
+      },
+      "activeBorder": {
+        "value": "#008184",
         "type": "color"
       }
     },
@@ -231,8 +235,16 @@
       }
     },
     "tab": {
-      "unfocusedActiveForeground": {
+      "ActiveBackground": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "ActiveForeground": {
         "value": "#4e5b61",
+        "type": "color"
+      },
+      "ActiveBorderTop": {
+        "value": "#ffffff",
         "type": "color"
       }
     }
