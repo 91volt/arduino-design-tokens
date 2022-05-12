@@ -9,7 +9,7 @@
     "list.inactiveSelectionBackground": "#DAE3E3",
     "list.hoverBackground": "#ECF1F1",
     "progressBar.background": "#005c5f",
-    "editor.background": "#ffffff",
+    "editor.background": "#f1c40f",
     "editor.foreground": "#4e5b61",
     "editor.lineHighlightBackground": "#434f5410",
     "editor.selectionBackground": "#f1c40f",
@@ -48,9 +48,9 @@
     "foreground": "#4e5b61",
     "settings.headerForeground": "#4e5b61",
     "tree.indentGuidesStroke": "#dae3e3",
-    "tab.ActiveBackground": "#ffffff",
+    "tab.ActiveBackground": "#f1c40f",
     "tab.ActiveForeground": "#4e5b61",
-    "tab.ActiveBorderTop": "#ffffff"
+    "tab.ActiveBorderTop": "#f1c40f"
   },
   "tokenColors": [
     {
