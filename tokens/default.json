@@ -34,7 +34,7 @@
     },
     "editor": {
       "background": {
-        "value": "#f1c40f",
+        "value": "#ffffff",
         "type": "color"
       },
       "foreground": {
@@ -236,7 +236,7 @@
     },
     "tab": {
       "ActiveBackground": {
-        "value": "#f1c40f",
+        "value": "#ffffff",
         "type": "color"
       },
       "ActiveForeground": {
@@ -244,7 +244,7 @@
         "type": "color"
       },
       "ActiveBorderTop": {
-        "value": "#f1c40f",
+        "value": "#ffffff",
         "type": "color"
       }
     }
